@@ -10,11 +10,13 @@ body {
   margin: 0;
   justify-content: end;
   padding-right: 9.8%;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 13px;
+  font-weight: 600;
 }
 .men {
-  border-right: 1px solid black;
+  border-right: 0.5px solid black;
 }
 .link {
   padding: 0px 10px;
@@ -42,12 +44,11 @@ body {
 .writing {
   display: flex;
   justify-content: space-between;
-  width: 35%;
-  
-  top: 5%;
-  padding-left: 15px;
+  width: 45%;
+   top: 5%;
+  padding-left: 30px;
   padding-top: 15px;
-  font-size: 20px;
+  font-size: 15px;
   
 }
 
@@ -78,13 +79,13 @@ body {
   position: absolute;
   width: 90%;
   display: flex;
-  top: 4.5%;
+  top: 8%;
   
  padding-left: 10%;
   
 }
 .first:hover{
-  background-color: #723c1d6b;
+  background-color: #723c1d7a;
  
   
 }
@@ -113,24 +114,3 @@ body {
 .shoe{
   padding-right: 15px;
 }
-/* .animation{
-  height: 5px;
-   width: 400px;
-  background-color: aqua;
-  animation-name: ani;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes ani{
-  10%{
-    top: 0;
-    left: 60px;
-    transition: 0.5s;
-  }
- 20%{
-   top:0;
-   left: 100px;
-   transition: .5s;
- }
-} */
