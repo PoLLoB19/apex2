@@ -189,3 +189,315 @@ font-size: 18px;
   height: 300px;
   width: 600px;
 }
+.bro{
+ margin-top: 6%;
+ position: relative;
+ z-index: -1;
+}
+.upd{
+  position: absolute;
+  top: 150%;
+  left: 42%;
+  border-top: 1px solid white;
+  
+ 
+  height: 10px;
+  width: 20%;
+}
+.upd{
+  border-left: 1px solid white ;
+  height: 20px;
+}
+.updv{
+  position: absolute;
+  top: 150%;
+  left: 77%;
+  border-top: 1px solid white;
+  
+ 
+  height: 10px;
+  width: 20%;
+}
+.updv{
+  border-right: 1px solid white ;
+  height: 20px;
+}
+
+.dod{
+  position: absolute;
+  top: 210%;
+  left: 42%;
+  border-bottom: 1px solid white;
+  
+  border-right: 1px solid white;
+  height: 10px;
+  width: 55%;
+}
+.dod{
+  border-left: 1px solid white ;
+  height: 20px;
+}
+.wed{
+  position: absolute;
+  top: 148%;
+  left: 63.5%;
+  color: aliceblue;
+  font-size: 20px;
+ 
+}
+.bagtt{
+  position: absolute;
+  width: 10%;
+  top: 167%;
+  left: 45%;
+}
+.bagtt:hover{
+  scale: 1.09;
+}
+.box{
+ 
+  position: absolute;
+  width: 10%;
+  top: 166%;
+  left: 44.5%;
+  height: 23%;
+  width: 11%;
+  background-color: black;
+  opacity: 40%;
+  z-index: 1;
+  
+}
+
+.bali{
+  position: absolute;
+  width: 10%;
+  top: 191%;
+  left: 45%;
+  text-decoration: none;
+  color: rgb(51, 69, 77);
+  background-color: aliceblue;
+  padding: 2px;
+  text-align: center;
+ 
+}
+.bali:hover{
+  text-decoration: underline;
+}
+.butt{
+  position: absolute;
+  top: 183%;
+  left:47%;
+  z-index: 1;
+
+  
+}
+.bu{
+  text-decoration: none;
+  color: black;
+ 
+}
+.diva{
+  display: none;
+}
+.bagt:hover+.diva{
+  display: block;
+  transition: 1s;
+}
+.tk{
+  position: absolute;
+  width: 10%;
+  top: 197%;
+  left: 45%;
+  text-decoration: none;
+  color: rgb(22, 22, 22);
+  font-size: 30px;
+  padding: 2px;
+  
+}
+
+.bagyy{
+  position: absolute;
+  width: 10%;
+  top: 167%;
+  left: 58%;
+}
+.bagyy:hover{
+  scale: 1.09;
+}
+.boxta{
+  position: absolute;
+  width: 10%;
+  top: 166%;
+  left: 57.5%;
+  height: 23%;
+  width: 11%;
+  background-color: black;
+  opacity: 40%;
+ 
+}
+.butta{
+  position: absolute;
+  top: 183%;
+  left:60%;
+  z-index: 1;
+}
+
+.balil{
+  position: absolute;
+  width: 10%;
+  top: 191%;
+  left: 58%;
+  text-decoration: none;
+  color: rgb(51, 69, 77);
+  background-color: aliceblue;
+  padding: 2px;
+  text-align: center;
+}
+.tka{
+  position: absolute;
+  width: 10%;
+  top: 197%;
+  left: 58%;
+  text-decoration: none;
+  color: rgb(22, 22, 22);
+  font-size: 30px;
+  padding: 2px;
+}
+.vida{
+  display: none;
+}
+.bagy:hover+ .vida{
+  display: block;
+  transition: .8s;
+}
+.balil:hover{
+ 
+    text-decoration: underline;
+  
+}
+
+/* 3rd */
+
+.baggrt{
+  position: absolute;
+  width: 10%;
+  top: 167%;
+  left: 71%;
+}
+.baggrt:hover{
+  scale: 1.09;
+}
+.boxtam{
+  position: absolute;
+  width: 10%;
+  top: 166%;
+  left: 70.5%;
+  height: 23%;
+  width: 11%;
+  background-color: black;
+  opacity: 40%;
+ 
+}
+.buttam{
+  position: absolute;
+  top: 183%;
+  left:73%;
+  z-index: 1;
+}
+
+.balila{
+  position: absolute;
+  width: 10%;
+  top: 191%;
+  left: 71%;
+  text-decoration: none;
+  color: rgb(51, 69, 77);
+  background-color: aliceblue;
+  padding: 2px;
+  text-align: center;
+}
+.tkam{
+  position: absolute;
+  width: 10%;
+  top: 197%;
+  left: 71%;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  padding: 2px;
+}
+.da{
+  display: none;
+}
+.baggr:hover+ .da{
+  display: block;
+  transition: .8s;
+}
+.balila:hover{
+ 
+    text-decoration: underline;
+  
+}
+
+/* 4th pic */
+
+.baggrta{
+  position: absolute;
+  width: 10%;
+  top: 167%;
+  left: 84%;
+}
+.baggrta:hover{
+  scale: 1.09;
+}
+.boxtat{
+  position: absolute;
+  width: 10%;
+  top: 166%;
+  left: 83.5%;
+  height: 23%;
+  width: 11%;
+  background-color: black;
+  opacity: 40%;
+ 
+}
+.buttama{
+  position: absolute;
+  top: 183%;
+  left:85.9%;
+  z-index: 1;
+}
+
+.balilat{
+  position: absolute;
+  width: 10%;
+  top: 191%;
+  left: 84%;
+  text-decoration: none;
+  color: rgb(51, 69, 77);
+  background-color: aliceblue;
+  padding: 2px;
+  text-align: center;
+}
+.tkama{
+  position: absolute;
+  width: 10%;
+  top: 197%;
+  left: 84%;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  padding: 2px;
+}
+.dav{
+  display: none;
+}
+.baggv:hover+ .dav{
+  display: block;
+  transition: .8s;
+}
+.balilat:hover{
+ 
+    text-decoration: underline;
+  
+}
