@@ -30,7 +30,7 @@ body {
   background-image: url(./pic/back.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 400px;
+  height: 300px;
   margin: none;
   position: relative;
 }
@@ -79,10 +79,12 @@ body {
   position: absolute;
   width: 90%;
   display: flex;
-  top: 8%;
+  top: 5.5%;
+  padding-left: 10%;
   
- padding-left: 10%;
-  
+}
+.nali:hover{
+  text-decoration: underline;
 }
 .first:hover{
   background-color: #723c1d7a;
@@ -90,27 +92,100 @@ body {
   
 }
 .grey{
-  position: absolute;
-  top: 30%;
-  height: 600px;
+ position: relative;
+  top: 50%;
+  height: 400px;
   width: 100%;
-  background-color: rgb(44, 42, 42);
+  background-color: rgb(32, 31, 31);
 }
 .h1{
   position: absolute;
-  top: 15%;
-  left: 35%;
+  top: 20%;
+  left: 32%;
   color: rgb(255, 255, 255);
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900;
+  
 }
 .but{
   position: absolute;
-  top: 23%;
-  left:45% ;
+  top: 35%;
+  left:42% ;
   display: flex;
   justify-content: center;
+  text-decoration: none;
   
 }
+.butli{
+  text-decoration: none;
+  color: aliceblue;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: 'Nunito', sans-serif;
+ 
+
+}
+.butli:hover{
+  background-color: aliceblue;
+  color: black;
+  transition: 0.5s;
+}
 .shoe{
-  padding-right: 15px;
+  padding-right: 20px;
+  
+}
+.vid{
+  position: absolute;
+  top: 45%;
+  right: 10%;
+  width: 35%;
+  
+  margin: 0;
+
+}
+.step{
+  position: absolute;
+  color: aliceblue;
+  top: 55%;
+  left: 15%;
+  font-family: 'Nunito', sans-serif;
+}
+h4{
+padding-top: 10px;
+width: 70%;
+font-size: 18px;
+}
+.ma{
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  padding-top: 5%;
+  position: absolute;
+  left: -1.5%;
+  
+ 
+}
+.mali{
+ 
+  text-decoration: none;
+  color: aliceblue;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px 40px 5px 40px;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+.mali:hover{
+  background-color: aliceblue;
+  color: black;
+  transition: 0.5s;
+}
+.imgf{
+  position: absolute;
+ top: 83%;
+ left:14.5%;
+  height: 300px;
+  width: 600px;
 }
