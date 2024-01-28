@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+}
+body {
+  margin: 0;
+  
+}
+.menu {
+  display: flex;
+  margin: 0;
+  justify-content: end;
+  padding-right: 9.8%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.men {
+  border-right: 1px solid black;
+}
+.link {
+  padding: 0px 10px;
+  text-decoration: none;
+  color: black;
+}
+.link:hover {
+  text-decoration: underline;
+}
+.back {
+  background-image: url(./pic/back.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  margin: none;
+  position: relative;
+}
+.logo {
+  display: flex;
+  
+  
+  
+
+}
+.writing {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+  
+  top: 5%;
+  padding-left: 15px;
+  padding-top: 15px;
+  font-size: 20px;
+  
+}
+
+.nali {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.icon {
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  display: flex;
+  color: aliceblue;
+}
+.ic {
+ 
+  padding-left: 15px;
+  font-size: 20px;
+  padding-top: 8px;
+}
+.icl{
+  color: aliceblue;
+  
+}
+.first{
+  
+  position: absolute;
+  width: 90%;
+  display: flex;
+  top: 4.5%;
+  
+ padding-left: 10%;
+  
+}
+.first:hover{
+  background-color: #723c1d6b;
+ 
+  
+}
+.grey{
+  position: absolute;
+  top: 30%;
+  height: 600px;
+  width: 100%;
+  background-color: rgb(44, 42, 42);
+}
+.h1{
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  color: rgb(255, 255, 255);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.but{
+  position: absolute;
+  top: 23%;
+  left:45% ;
+  display: flex;
+  justify-content: center;
+  
+}
+.shoe{
+  padding-right: 15px;
+}
+/* .animation{
+  height: 5px;
+   width: 400px;
+  background-color: aqua;
+  animation-name: ani;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ani{
+  10%{
+    top: 0;
+    left: 60px;
+    transition: 0.5s;
+  }
+ 20%{
+   top:0;
+   left: 100px;
+   transition: .5s;
+ }
+} */
