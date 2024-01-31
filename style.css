@@ -311,17 +311,17 @@ h4 {
  
 0%{
   background-image: url(./pic/8d540c5b-5f47-4866-96e6-6589a00b2b82.png);
-  transition: 0.8s;
+  transition: 2s;
   
 }
 
 50%{
   background-image: url(./pic/27ff38e0-aeb9-483e-9620-7f04b12471cd.jpg);
-  transition: 0.8s;
+  transition: 2s;
 }
 100%{
   background-image: url(./pic/46c21b0c-0172-479f-b368-ec438cb6cfc6.png);
-  transition: 0.8s;
+  transition: 2s;
 }
 }
 
