@@ -206,30 +206,92 @@ h4 {
   padding-top: 10px;
 }
 
-.weddingbox{
+.weddingbox {
   margin: 5%;
 }
-.upborder{
+.upborder {
   display: flex;
+  justify-content: center;
+  position: relative;
+
 }
 .upd{
-  border-top: 1px solid rgb(7, 7, 7);
+  border-top: 1px solid rgb(17, 16, 16);
   height: 10px;
-  width: 40%;
-  margin-right: 10px;
+  width: 30%;
+ margin-right: 15%;
+ border-left: 1px solid rgb(7, 7, 7);
+ height: 30px;
 }
 .text{
- text-align: center;
- font-size: 30px;
- 
-
+  font-size: 20px;
+  position: absolute;
+  top: -12px
 }
 .updv{
-  border-top: 1px solid rgb(14, 13, 13);
-
+  border-top: 1px solid rgb(17, 16, 16);
   height: 10px;
-  width: 40%;
+  width: 30%;
+  border-right: 1px solid rgb(7, 7, 7);
+ height: 30px;
 }
+.content{
+  width: 65vw;
+  margin-left: 13%;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.imgbag{
+  height: 25vh;
+ 
+}
+.title{
+  margin-top: 18px;
+  margin-left: 15px;
+  font-size: 15px;
+
+ 
+}
+.title:hover{
+  text-decoration: underline;
+}
+.taka{
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.content-link{
+  text-decoration: none;
+  color: black;
+}
+.blank-box{
+    height: 25vh;
+    width: 12vw;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    opacity: 20%;
+    display: none;
+  
+   
+}
+.imgbag:hover{
+  scale: 1.2;
+}
+.imgbag:hover + .blank-box{
+  display: block;
+  
+}
+.downborder{
+   border-bottom:1px solid black ;
+   width: 68vw;
+   margin-left: 12%;
+   border-right: 1px solid black;
+   border-left: 1px solid black;
+   height: 20px;
+}
+
 
 /* .upd {
   position: absolute;
@@ -529,4 +591,3 @@ h4 {
   height: 80%;
   width: 90%;
 } */
-
