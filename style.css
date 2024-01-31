@@ -41,7 +41,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 45%;
-  top: 5%;
+  top: 9%;
   padding-left: 30px;
   padding-top: 15px;
   font-size: 15px;
@@ -54,7 +54,7 @@ body {
 
 .icon {
   position: absolute;
-  top: 5%;
+  top: 9%;
   right: 10%;
   display: flex;
   color: aliceblue;
@@ -64,6 +64,7 @@ body {
   font-size: 20px;
   padding-top: 8px;
 }
+
 .icl {
   color: aliceblue;
 }
@@ -71,7 +72,7 @@ body {
   position: absolute;
   width: 90%;
   display: flex;
-  top: 3.8%;
+  top: 5%;
   padding-left: 10%;
 }
 .nali:hover {
@@ -88,7 +89,7 @@ body {
 }
 .grey {
   position: relative;
-  height: 650px;
+  height: 450px;
   width: 100%;
   background-color: rgb(32, 31, 31);
 }
@@ -130,7 +131,8 @@ body {
 .vid {
   position: absolute;
   display: inline-block;
-  width: 40%;
+  width:40%;
+
   top: -2%;
   right: 10%;
 
@@ -172,20 +174,25 @@ h4 {
 }
 .imgf {
   position: absolute;
-  top: 42%;
+  top: 50%;
   left: 9.5%;
-  height: 65%;
-  width: 42%;
+ width: 42vw;
+
 }
 .sb {
   display: flex;
   margin: 10% 15% 8% 8%;
+  width: 70vw;
+  
 }
 
 .sbig {
   padding-left: 10px;
   height: 50%;
   width: 30%;
+}
+.one{
+  width: 20vw;
 }
 .sbri {
   padding-left: 15px;
@@ -219,7 +226,7 @@ h4 {
   border-top: 1px solid rgb(17, 16, 16);
   height: 10px;
   width: 30%;
- margin-right: 15%;
+ margin-right: 20%;
  border-left: 1px solid rgb(7, 7, 7);
  height: 30px;
 }
@@ -285,309 +292,180 @@ h4 {
 }
 .downborder{
    border-bottom:1px solid black ;
-   width: 68vw;
-   margin-left: 12%;
+   width: 72vw;
+   margin-left:10%;
    border-right: 1px solid black;
    border-left: 1px solid black;
    height: 20px;
 }
+.img-ani{
+  height: 1000px;
+  width: 100%;
 
-
-/* .upd {
-  position: absolute;
-  top: 150%;
-  left: 42%;
-  border-top: 1px solid rgb(255, 255, 255);
-
-  height: 10px;
-  width: 20%;
+ 
+   animation-name: animation;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
 }
-.upd {
-  border-left: 1px solid white;
-  height: 20px;
-}
-.updv {
-  position: absolute;
-  top: 150%;
-  left: 77%;
-  border-top: 1px solid white;
-
-  height: 10px;
-  width: 20%;
-}
-.updv {
-  border-right: 1px solid white;
-  height: 20px;
+@keyframes animation{
+ 
+0%{
+  background-image: url(./pic/8d540c5b-5f47-4866-96e6-6589a00b2b82.png);
+  transition: 0.8s;
+  
 }
 
-.dod {
-  position: absolute;
-  top: 210%;
-  left: 42%;
-  border-bottom: 1px solid white;
-
-  border-right: 1px solid white;
-  height: 10px;
-  width: 55%;
+50%{
+  background-image: url(./pic/27ff38e0-aeb9-483e-9620-7f04b12471cd.jpg);
+  transition: 0.8s;
 }
-.dod {
-  border-left: 1px solid white;
-  height: 20px;
+100%{
+  background-image: url(./pic/46c21b0c-0172-479f-b368-ec438cb6cfc6.png);
+  transition: 0.8s;
 }
-.wed {
-  position: absolute;
-  top: 148%;
-  left: 63.5%;
-  color: aliceblue;
-  font-size: 20px;
-}
-.bagtt {
-  position: absolute;
-  width: 10%;
-  top: 167%;
-  left: 45%;
-}
-.bagtt:hover {
-  scale: 1.09;
-}
-.box {
-  position: absolute;
-  width: 10%;
-  top: 166%;
-  left: 44.5%;
-  height: 23%;
-  width: 11%;
-  background-color: black;
-  opacity: 40%;
-  z-index: 1;
 }
 
-.bali {
-  position: absolute;
-  width: 10%;
-  top: 191%;
-  left: 45%;
-  text-decoration: none;
-  color: rgb(51, 69, 77);
-  background-color: aliceblue;
-  padding: 2px;
-  text-align: center;
+.offer{
+  display: flex;
+  justify-content: center;
+  height: 100vh
+ 
 }
-.bali:hover {
-  text-decoration: underline;
+.offer-box-img{
+  width: 25vw;
+  padding: 10px;
+  
+}  
+.relation{
+  position: relative;
 }
-.butt {
-  position: absolute;
-  top: 183%;
-  left: 47%;
-  z-index: 1;
+.boxwri{
+    background-color: rgb(255, 255, 255);
+    width: 20vw;
+    height: 80px;
+   margin-left: 25px;
+   position: absolute;
+  bottom: -60px;
+  padding: 20px;
+    
+  
+  
 }
-.bu {
+.p-off{
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.offer-link{
+  align-content: center;
+ font-size: 12px;
+  color: black;
+ padding-left: 40%;
+  
+}
+.offer-link:hover{
+  opacity: 60%;
+}
+.best{
+  display: flex;
+}
+
+.head{
+  display: flex;
+  margin-left: 10%;
+  font-size: 25px;
+  font-family: 'Ubuntu', sans-serif;
+ 
+}
+.ar{
+  padding-top: 4px;
+  padding-right: 15px;
+}
+.sell{
+  padding-right: 50px;
+  font-weight: 700;
+}
+
+.trend{
+  opacity: 20%;
+}
+.view{
+  margin-left: 38%;
+}
+.view-all{
   text-decoration: none;
   color: black;
+  font-size: 20px;
 }
-.diva {
-  display: none;
+.view-all:hover{
+  text-decoration: underline;
 }
-.bagt:hover + .diva {
-  display: block;
+.ba{
+  padding: 10px;
+
+}
+.ba:hover{
+  background-color: rgb(0, 0, 0);
+  color: white;
   transition: 1s;
 }
-.tk {
+.shoesa{
+ padding-left: 50px;
+ margin-top: 20px;
+}
+.col-shoe{
+  display: flex;
+  
+  padding-left: 3%;
+  position: relative;
+}
+.col-shoe:hover{
+     scale: 1.2;
+}
+.col-shoe-img{
+  height: 35vh;
+  width: 15vw;
+}
+
+.tex{
   position: absolute;
-  width: 10%;
-  top: 197%;
+  bottom: 10%;
   left: 45%;
-  text-decoration: none;
-  color: rgb(22, 22, 22);
-  font-size: 30px;
-  padding: 2px;
+  font-size: 20px;
+  color: white;
+}
+.col{
+  display: flex;
+  
+  width: 35%;
+  padding-left: 17%;
+  padding-top: 10%;
+  padding-bottom: 15%;
+
+}
+.img-anim{
+  height: 1000px;
+  width: 100%;
+
+ 
+   animation-name: animation;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+}
+@keyframes animation{
+ 
+0%{
+  background-image: url(./pic/752a04c2-d9a3-42d2-af6a-8e5ec0164666.jpg);
+  transition: 0.8s;
+  
 }
 
-.bagyy {
-  position: absolute;
-  width: 10%;
-  top: 167%;
-  left: 58%;
-}
-.bagyy:hover {
-  scale: 1.09;
-}
-.boxta {
-  position: absolute;
-  width: 10%;
-  top: 166%;
-  left: 57.5%;
-  height: 23%;
-  width: 11%;
-  background-color: black;
-  opacity: 40%;
-}
-.butta {
-  position: absolute;
-  top: 183%;
-  left: 60%;
-  z-index: 1;
-}
-
-.balil {
-  position: absolute;
-  width: 10%;
-  top: 191%;
-  left: 58%;
-  text-decoration: none;
-  color: rgb(51, 69, 77);
-  background-color: aliceblue;
-  padding: 2px;
-  text-align: center;
-}
-.tka {
-  position: absolute;
-  width: 10%;
-  top: 197%;
-  left: 58%;
-  text-decoration: none;
-  color: rgb(22, 22, 22);
-  font-size: 30px;
-  padding: 2px;
-}
-.vida {
-  display: none;
-}
-.bagy:hover + .vida {
-  display: block;
+50%{
+  background-image: url(./pic/ee83b18c-fe22-4a04-b9a5-fc3300928550.jpg);
   transition: 0.8s;
 }
-.balil:hover {
-  text-decoration: underline;
-}
-.bro{
-  height: 900px;
-}
-
-
-
-.baggrt {
-  position: absolute;
-  width: 10%;
-  top: 167%;
-  left: 71%;
-}
-.baggrt:hover {
-  scale: 1.09;
-}
-.boxtam {
-  position: absolute;
-  width: 10%;
-  top: 166%;
-  left: 70.5%;
-  height: 23%;
-  width: 11%;
-  background-color: black;
-  opacity: 40%;
-}
-.buttam {
-  position: absolute;
-  top: 183%;
-  left: 73%;
-  z-index: 1;
-}
-
-.balila {
-  position: absolute;
-  width: 10%;
-  top: 191%;
-  left: 71%;
-  text-decoration: none;
-  color: rgb(51, 69, 77);
-  background-color: aliceblue;
-  padding: 2px;
-  text-align: center;
-}
-.tkam {
-  position: absolute;
-  width: 10%;
-  top: 197%;
-  left: 71%;
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  font-size: 30px;
-  padding: 2px;
-}
-.da {
-  display: none;
-}
-.baggr:hover + .da {
-  display: block;
+100%{
+  background-image: url(./pic/46c21b0c-0172-479f-b368-ec438cb6cfc6.png);
   transition: 0.8s;
 }
-.balila:hover {
-  text-decoration: underline;
 }
-
-
-
-.baggrta {
-  position: absolute;
-  width: 10%;
-  top: 167%;
-  left: 84%;
-}
-.baggrta:hover {
-  scale: 1.09;
-}
-.boxtat {
-  position: absolute;
-  width: 10%;
-  top: 166%;
-  left: 83.5%;
-  height: 23%;
-  width: 11%;
-  background-color: black;
-  opacity: 40%;
-}
-.buttama {
-  position: absolute;
-  top: 183%;
-  left: 85.9%;
-  z-index: 1;
-}
-
-.balilat {
-  position: absolute;
-  width: 10%;
-  top: 191%;
-  left: 84%;
-  text-decoration: none;
-  color: rgb(51, 69, 77);
-  background-color: aliceblue;
-  padding: 2px;
-  text-align: center;
-}
-.tkama {
-  position: absolute;
-  width: 10%;
-  top: 197%;
-  left: 84%;
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  font-size: 30px;
-  padding: 2px;
-}
-.dav {
-  display: none;
-}
-.baggv:hover + .dav {
-  display: block;
-  transition: 0.8s;
-}
-.balilat:hover {
-  text-decoration: underline;
-}
-.boxx {
-  position: absolute;
-  top: 65%;
-  left: 10%;
-  height: 80%;
-  width: 90%;
-} */
