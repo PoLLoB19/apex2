@@ -80,6 +80,7 @@ body {
 }
 .first:hover {
   background-color: #ffffffee;
+  transition: 0.8s;
 }
 .first:hover .nali {
   color: black;
