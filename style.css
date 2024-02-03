@@ -481,8 +481,8 @@ h4 {
    display: flex;
   height: 45vh;
 
-  border-top: 1px solid black;
- border-bottom: .2px solid black;
+  border-top: 1px solid rgba(66, 64, 64, 0.144);
+ border-bottom: .2px solid rgba(54, 51, 51, 0.267);
  
 }
 
@@ -496,7 +496,7 @@ h4 {
 
 }
 .free{
-  border-right: 1px solid black;
+  border-right: 1px solid rgba(54, 51, 51, 0.103);
    width: 25vw;
    text-align: center;
    font-weight: 400;
@@ -584,7 +584,7 @@ font-weight: 400;
   
 }
 .lasa{
-  background-color: black;
+  background-color: rgb(10, 10, 10);
   color: aliceblue;
   position: absolute;
    height: 6.8vh;
