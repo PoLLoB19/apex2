@@ -3,6 +3,7 @@
 }
 body {
   margin: 0;
+ 
 }
 .menu {
   display: flex;
@@ -59,6 +60,25 @@ body {
   display: flex;
   color: aliceblue;
 }
+
+.shop{
+   position: relative;
+}
+.hold{
+  position: absolute;
+  top: 7px;
+  right: -5px;
+  height: 15px;
+  width: 15px;
+  background-color: rgba(240, 248, 255, 0.507);
+  border-radius: 50%;
+  color: rgb(236, 16, 16);
+  font-weight: 900;
+  text-align: center;
+  font-size: 15px;
+ 
+}
+
 .ic {
   padding-left: 15px;
   font-size: 20px;
@@ -640,4 +660,14 @@ font-weight: 400;
 }
 .instalink{
   text-decoration: none;
+}
+
+.java{
+  border-radius: 20px;
+ padding: 5px;
+ cursor: pointer;
+ background-color: rgb(177, 195, 209);
+margin-top: 10px;
+color: aliceblue;
+
 }
