@@ -64,7 +64,7 @@ body {
 .shop{
    position: relative;
 }
-.hold{
+/* .hold{
   position: absolute;
   top: 7px;
   right: -5px;
@@ -78,7 +78,7 @@ body {
   font-size: 15px;
  
 }
-
+ */
 .ic {
   padding-left: 15px;
   font-size: 20px;
