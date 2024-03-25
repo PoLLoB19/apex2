@@ -62,7 +62,9 @@ function afc() {
 
 function ber(){
   document.querySelector('.cart-items').classList.add("cca")
-  document.querySelector('.ca').classList.toggle("cate")
+  document.querySelector('.ca').classList.toggle("cate");
+
+
 }
 
 function be(){
@@ -71,6 +73,7 @@ function be(){
 }
 
 function add() {
+
   a =a+1;
    document.querySelector(".hold").innerHTML = a ;
  
