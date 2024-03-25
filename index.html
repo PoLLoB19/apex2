@@ -18,12 +18,19 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="./script.js">
     
     </script>
   </head>
-  <body>
-    <div class="cart-items"></div>
+  <body >
+
+    <div class="cart-items bg-orange-200 z-20">
+      <h1 class="text-center mb-2 cart-h"> Your items are:</h1>
+    </div>
+ <div class="ca h-[100vh] w-[80vw] absolute left-0 bg-black  opacity-50 " onclick="be()"></div>
+    
+    <div class="tip "></div>
     <div>
       <menu class="menu">
         <div class="men"><a class="link" href="">Find a store</a></div>
@@ -34,7 +41,7 @@
       </menu>
     </div>
 
-    <div class="back"></div>
+    <div class="back" onclick="be()"></div>
 
     <nav class="nav">
       <div class="first">
@@ -59,10 +66,10 @@
           <div class="heart ic">
             <a class="icl" href=""><i class="fa-regular fa-heart"></i></a>
           </div>
-          <div class="shop ic">
-            <a class="icl" href=""><i class="fa-solid fa-bag-shopping"></i></a>
+          <button class="shop ic icl"  onclick="ber()">
+       <i class="fa-solid fa-bag-shopping"></i>
             <div class="hold">0</div>
-          </div>
+          </button>
           <div class="user ic">
             <a class="icl" href=""><i class="fa-regular fa-user"></i></a>
           </div>
@@ -338,7 +345,7 @@
           <p class="title">Sprint Men's Sports Shoe</p>
           <h2 class="taka">$36</h2>
         </a>
-        <button class="java" onclick="add()">Buy Now</button>
+        <button class="java" onclick="add(),afa()">Buy Now</button>
         <div class="blank-box"></div>
       </div>
 
@@ -352,17 +359,17 @@
           <p class="title">Sprint Men's Sports Shoe</p>
           <h2 class="taka">$28</h2>
         </a>
-        <button class="java" onclick="add()">Buy Now</button>
+        <button class="java" onclick="add(),afb()">Buy Now</button>
         <div class="blank-box"></div>
       </div>
 
       <div class="bag1">
-        <img class="imgbag" src="./pic/shoes/sh/93582A40_1.jpeg" alt="" />
+        <img class="imgbag"  src="./pic/shoes/sh/93582A40_1.jpeg" alt="" />
         <a class="content-link" href="">
           <p class="title">Sprint Men's Sports Shoe</p>
           <h2 class="taka">$32</h2>
         </a>
-        <button class="java" onclick="add()">Buy Now</button>
+        <button class="java" onclick="add(),afc()">Buy Now</button>
         <div class="blank-box"></div>
       </div>
     </div>
