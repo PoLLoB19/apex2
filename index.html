@@ -25,8 +25,14 @@
   </head>
   <body >
 
-    <div class="cart-items bg-orange-200 z-20">
+    <div class="cart-items bg-white z-20">
       <h1 class="text-center mb-2 cart-h"> Your items are:</h1>
+
+      <div class="lis bg-amber-600 text-white 
+      absolute bottom-0 w-full p-4">
+        <div class="total_it">Total Items:</div>
+        <div class="sub">Subtotal:</div>
+      </div>
     </div>
  <div class="ca h-[100vh] w-[80vw] absolute left-0 bg-black  opacity-50 " onclick="be()"></div>
     
@@ -66,13 +72,14 @@
           <div class="heart ic">
             <a class="icl" href=""><i class="fa-regular fa-heart"></i></a>
           </div>
-          <div class="shop ic">
-            <a class="icl" href=""><i class="fa-solid fa-bag-shopping"></i></a>
+          <button class="shop ic icl"  onclick="ber()">
+           <i class="fa-solid fa-bag-shopping"></i>
             <div class="hold">0</div>
-          </div>
-          <div class="user ic">
-            <a class="icl" href=""><i class="fa-regular fa-user"></i></a>
-          </div>
+          </button>
+          <button class="user ic icl" 
+       >
+            <i class="fa-regular fa-user"></i>
+          </button>
           <div class="moon ic " id="mo">
             <a class="icl" href=""><i class="fa-regular fa-moon"></i></a>
           </div>

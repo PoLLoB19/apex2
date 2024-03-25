@@ -1,8 +1,6 @@
 let a = 0;
 
-function add() {
-  document.querySelector(".hold").innerHTML = a = a + 1;
-}
+
 
 
 
@@ -64,10 +62,22 @@ function afc() {
 
 function ber(){
   document.querySelector('.cart-items').classList.add("cca")
-  document.querySelector('.ca').classList.add("cate")
+  document.querySelector('.ca').classList.toggle("cate")
 }
 
 function be(){
   document.querySelector('.cart-items').classList.remove("cca")
-  document.querySelector('.ca').remove("cate")
+  document.querySelector('.ca').classList.remove("cate")
 }
+
+function add() {
+  a =a+1;
+   document.querySelector(".hold").innerHTML = a ;
+ 
+ 
+   document.querySelector('.total_it').innerHTML =`Total items : ${a}`
+ 
+   
+ }
+
+ 
