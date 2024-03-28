@@ -29,36 +29,43 @@ let items = [
 ];
 
 
-
-function af() {
-  let to=  document.createElement('div');
-   to.innerHTML=`<div style="padding-bottom:15px; padding-left:15px"> <div>Name- ${items[0].Name}</div>  <div>Price- ${items[0].price}$</div> <div>Type- ${items[0].type}</div> </div> `;
+function cat(){
+ let cach= document.previousElementSibling;
  
-   document.querySelector('.ekhane').append(to)
-
- 
+  document.querySelector('.ekhane').append(cach)
 }
 
-function afa() {
-  let to=  document.createElement('div');
-   to.innerHTML=`<div style="padding-bottom:15px; padding-left:15px"> <div>Name- ${items[1].Name}</div>  <div>Price- ${items[1].price}$</div> <div>Type- ${items[1].type}</div></div> `;
-   document.querySelector('.ekhane').append(to)
- 
-}
 
-function afb() {
-  let to=  document.createElement('div');
-   to.innerHTML=`<div style="padding-bottom:15px; padding-left:15px">  <div>Name- ${items[2].Name}</div>  <div>Price- ${items[2].price}$</div> <div>Type- ${items[2].type}</div></div> `;
-   document.querySelector('.ekhane').append(to)
- 
-}
 
-function afc() {
-  let to=  document.createElement('div');
-   to.innerHTML=`<div style="padding-bottom:15px; padding-left:15px"> <div>Name- ${items[3].Name}</div>  <div>Price- ${items[3].price}$</div> <div>Type- ${items[3].type}</div></div> `;
-   document.querySelector('.ekhane').append(to)
+// function af() {
+//   let to=  document.createElement('div');
+//    to.innerHTML=`<div style="padding-bottom:15px; padding-left:15px"> <div>Name- ${items[0].Name}</div>  <div>Price- ${items[0].price}$</div> <div>Type- ${items[0].type}</div> </div> `;
  
-}
+  
+
+ 
+// }
+
+// function afa() {
+//   let to=  document.createElement('div');
+//    to.innerHTML=`<div style="padding-bottom:15px; padding-left:15px"> <div>Name- ${items[1].Name}</div>  <div>Price- ${items[1].price}$</div> <div>Type- ${items[1].type}</div></div> `;
+//    document.querySelector('.ekhane').append(to)
+ 
+// }
+
+// function afb() {
+//   let to=  document.createElement('div');
+//    to.innerHTML=`<div style="padding-bottom:15px; padding-left:15px">  <div>Name- ${items[2].Name}</div>  <div>Price- ${items[2].price}$</div> <div>Type- ${items[2].type}</div></div> `;
+//    document.querySelector('.ekhane').append(to)
+ 
+// }
+
+// function afc() {
+//   let to=  document.createElement('div');
+//    to.innerHTML=`<div style="padding-bottom:15px; padding-left:15px"> <div>Name- ${items[3].Name}</div>  <div>Price- ${items[3].price}$</div> <div>Type- ${items[3].type}</div></div> `;
+//    document.querySelector('.ekhane').append(to)
+ 
+// }
 
 
 
